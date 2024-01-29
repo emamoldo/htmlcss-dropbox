@@ -1,0 +1,47 @@
+:root {
+    --drop-jumbo: #b4d0e7FF;
+    --drop-button: #0160ffFF;
+    --drop-button-text: #fefffeFF;
+    --drop-designit: #f4f5f4FF;
+    --drop-business-backg: #b4d0e7FF;
+    --drop-footer-backg: #000000FF;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+
+.site_header{
+    width: 195vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+.text{
+    display: flex;
+}
+.logo{
+    width: 120px;
+    height: 30px;
+}
+.logo_text{
+    display: flex;
+}
+.start{
+    height: 30px;
+    background-color: var(--drop-button);
+    color: var(--drop-button-text);
+    border: none;
+}
+/* /Header */
+
