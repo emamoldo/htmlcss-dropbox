@@ -93,17 +93,12 @@ ul.logo_text li {
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    
+}
+hr{
+    width: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.business{
+    display: flex;
+}
 /* /Main */
