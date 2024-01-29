@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --drop-jumbo: #b4d0e7FF;
     --drop-button: #0160ffFF;
@@ -13,35 +18,92 @@ ul {
 
 /* Header */
 
-.site_header{
-    width: 195vh;
+.site_header {
     display: flex;
     justify-content: space-between;
 }
-.left{
+
+.left {
     display: flex;
     align-items: center;
 }
 
-.right{
+.right {
     display: flex;
     align-items: center;
 }
-.text{
+
+.text {
     display: flex;
 }
-.logo{
+
+.logo {
     width: 120px;
     height: 30px;
+    padding-right: 10px ;
 }
-.logo_text{
+
+.logo_text {
     display: flex;
+    margin-right: 1em;
 }
-.start{
+
+button {
     height: 30px;
     background-color: var(--drop-button);
     color: var(--drop-button-text);
     border: none;
 }
+
+ul.text li {
+    margin-right: 1em;
+}
+
+ul.logo_text li {
+    margin-right: 1em;
+}
+
 /* /Header */
 
+
+/* Main */
+.container {
+    background-color: var(--drop-jumbo);
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+
+.jumbo h1 {
+    background-color: var(--drop-jumbo);
+    font-size: 3em;
+}
+
+.img_text {
+    width: 25%;
+    margin-bottom: 2em;
+}
+
+.img_jumbo {
+    width: 100%;
+    margin-bottom: -4em;
+}
+.img_jumbo_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* /Main */
